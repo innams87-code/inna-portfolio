@@ -14,3 +14,14 @@ h2 { color: #4e342e; margin-bottom: 12px; }
 ul { padding-left: 18px; }
 
 footer { text-align: center; padding: 24px 0; border-top: 1px solid #eee; }
+.site-header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 16px 12px;
+border-bottom: 1px solid #eee;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.logo { height: 36px; width: auto; }
+nav a { margin: 0 10px; color: #c62828; text-decoration: none; font-weight: 600; }
+nav a:hover { text-decoration: underline; }
