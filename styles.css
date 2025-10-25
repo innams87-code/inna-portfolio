@@ -25,6 +25,7 @@ border-bottom: 1px solid #eee;
 .logo { height: 36px; width: auto; }
 nav a { margin: 0 10px; color: #c62828; text-decoration: none; font-weight: 600; }
 nav a:hover { text-decoration: underline; }
+/* Project cards */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -65,3 +66,6 @@ nav a:hover { text-decoration: underline; }
 .btn.secondary { background: #c62828; }
 
 .actions { margin-top: 8px; }
+
+/* Smooth scroll (nice touch) */
+html { scroll-behavior: smooth; }
