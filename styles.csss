@@ -1,0 +1,21 @@
+html, body { margin: 0; }
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #fffdf8;
+}
+
+header { text-align: center; padding: 24px 12px; border-bottom: 1px solid #eee; }
+header h1 { margin: 0 0 6px; color: #c62828; }
+nav { margin-top: 8px; }
+nav a { margin: 0 10px; color: #c62828; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+
+main { max-width: 900px; margin: 24px auto; padding: 0 12px; }
+section { margin: 28px 0; }
+h2 { color: #4e342e; margin-bottom: 12px; }
+
+ul { padding-left: 18px; }
+
+footer { text-align: center; padding: 24px 0; border-top: 1px solid #eee; }
